@@ -1,0 +1,14 @@
+.searchContainer{
+margin: 20px auto ;
+width: 300px; 
+position: relative;
+}
+.searchInput{
+border: none;
+border-bottom: 1px rgba(0, 0, 0, 0.219) solid;
+padding: 10px 20px;
+width: 100%;
+outline: none;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.735);
+}

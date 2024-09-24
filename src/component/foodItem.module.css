@@ -1,0 +1,39 @@
+.itemContainer{
+    width: 300px;
+    border-radius: 5px ;
+    box-shadow: 0 4px 6px rgb(0, 0, 0,0.5);
+    overflow: hidden;
+    margin: 20px;
+    font-family: polysans, sans-serif;
+}
+.itemImage{
+    max-width: 100%;
+    height: auto;
+}
+.itemContent{
+    /* margin-top: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.itemName{
+    font-size: 1em;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.753);
+}
+.itemButton{
+    border-radius: 5px;
+    border:none;
+    color: white;
+    background-color:rgb(0, 183, 0);
+    font-weight: 600;
+    padding: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.itemButtonContainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
